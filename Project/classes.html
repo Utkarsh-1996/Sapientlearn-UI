@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+       <style>
+           h1{
+               color: red !important;
+               font-style: italic
+           }
+           #h1Id{
+               color: green !important;
+           }
+           .h1Class{
+               color: blue !important;
+           }
+       </style>
+       
+    </head>
+
+    <body>
+        <h1>
+            Welcome to CSS
+        </h1>
+        <h1 id="h1Id">
+            I am id based selector
+        </h1>
+        <h1 class="h1Class">
+            I am class based selector
+        </h1>
+        <h1 class="h1Class" id="h1Id">
+            Id wins
+        </h1>
+        <h1 style="color: yellow !important" id="h1Id">
+            Inline styling wins
+        </h1>
+        
+    </body>
+    <!--Priority is in the order of "important", inline styling-->
+
+</html>

@@ -1,0 +1,24 @@
+
+<!DOCTYPE HTML>
+<html>
+    <head>
+       <style>
+           .btn{
+               font-size: 16px;
+           }
+           .notice{
+               background: red;
+           }
+           .error{
+               background: green;
+           }
+       </style>
+       
+    </head>
+
+    <body>
+      <button class="btn notice error">Notice button</button>
+      <button class="btn error notice"> Button error</button>
+    </body>
+</html>
+<!--order of writing the classes matters therefore the button clolor is green since error class is defined last-->
