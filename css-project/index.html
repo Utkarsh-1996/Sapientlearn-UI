@@ -1,0 +1,115 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Css project</title>
+        <style>
+            .rect{
+
+                width: 200px;
+                height: 50px;
+                margin: 5px
+            }
+            .position1{
+                position: absolute;
+                top: 6%;
+                left: 35%;
+            }
+            .shadow{
+               box-shadow:0px 0px 5px 2px orange
+           }
+           .rotate10{
+                transform: rotate(4deg)
+           }
+           .rotate-10{
+                transform: rotate(-4deg)
+           }
+           .next-section{
+               border: 2px dashed black;
+               position: absolute;
+               height: 600px;
+               width: 98%;
+               top: 30%;
+           }
+           .next-boxes{
+                margin: -20px;  
+                
+
+           }
+           .newpostion{
+               position: absolute;
+               top: 5%;
+               right: 5%;
+
+           }
+           .rel{
+               position: relative;
+               left: 30%;
+               top: 1%
+
+
+           }
+           .rel1{
+               position: relative;
+               top:6%;
+               left: 10%
+           }
+           .rect:hover{
+            box-shadow:2px 03px 5px 2px blue
+           }
+           .rel2{
+               position: absolute;
+               left: 50%;
+               top: 1.5%
+           }
+           .rel3{
+               position: absolute;
+               left: 75%;
+               top:1%
+           }
+           .rel4{
+               position: relative;
+               top: -35%;
+           }
+           .rel5{
+               position: relative;
+               top: -72%
+           }
+           
+
+        </style>
+    </head>
+
+    <body>
+        <div class="rect shadow rotate10 position1"></div>
+        <div class="next-section">
+            <div class="rect next-boxes shadow rotate-10 rel1">new project</div>
+            <div class="rect next-boxes shadow rotate-10 rel">1233</div>
+            <div class="rect next-boxes shadow rotate10 rel1">123</div>
+            <div class="rect next-boxes shadow rotate10 rel">1231</div>
+            <div class="rect next-boxes shadow rotate-10 rel1">213123</div>
+            <div class="rect next-boxes shadow rotate-10 rel">324234</div>
+            <div class="rect next-boxes shadow rotate10 rel1">123123</div>
+            <div class="rect next-boxes shadow rotate10 rel">12312</div>
+            <div class="rect next-boxes shadow rotate-10 rel1">12312</div>
+            <div class="rect next-boxes shadow rotate-10 rel">123123</div>
+            
+           <div class="rel2 rect shadow rotate-10">sadfa</div>
+           <div class="rel2 rect shadow rotate10 rel4">sadfa</div>
+           <div class="rel2 rect shadow rotate-10 rel4">sadfa</div>
+           <div class="rel2 rect shadow rotate10 rel4">sadfa</div>
+           <div class="rel2 rect shadow rotate-10 rel4">sadfa</div>
+
+            <div class="rel3 rect shadow rotate-10">dddd</div>
+            <div class="rel3 rect shadow rotate10 rel5">done</div>
+            <div class="rel3 rect shadow rotate-10 rel5">with</div>
+            <div class="rel3 rect shadow rotate10 rel5">perfection</div>
+            <div class="rel3 rect shadow rotate-10 rel5">!!!</div>
+            
+
+
+        </div>
+        
+    </body>
+
+</html>
