@@ -1,0 +1,28 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <canvas width="1000" height="1000" id="canvas"></canvas>
+        <script>
+            var c=document.getElementById('canvas').getContext('2d');
+            c.lineWidth=1;
+
+            c.beginPath();
+            c.moveTo(0,0);
+            c.lineTo(0,400);
+            c.moveTo(0,400);
+            c.lineTo(800,400);
+            c.stroke();
+            c.strokeStyle='Black';
+            c.fillStyle="Blue";
+            var data=[16,68,20,30,54,22,49];
+            for(var i=0;i<data.length;i++){
+                var dp=data[i];
+                c.fillRect(25+i*100,400-dp*5,50,dp*5);
+            }
+            var labels=["JAN","FEB","MAR","APR","MAY","JUN","JUL"];
+            
+        </script>
+    </body>
+</html>
