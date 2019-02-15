@@ -1,0 +1,19 @@
+<html>
+    <body>
+        <canvas width="500" height="300" id="canvas"></canvas>
+        <script>
+            var canvas=document.getElementById('canvas');
+            var c = canvas.getContext('2d');
+            c.fillStyle="Green";
+            c.beginPath();
+            c.moveTo(30,20);
+            c.lineTo(200,50);
+            c.lineTo(126,90);
+            c.closePath();
+            c.fill();
+            c.strokeStyle='Blue';
+            c.lineWidth=5;
+            c.stroke();
+        </script>
+    </body>
+</html>
