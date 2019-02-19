@@ -1,8 +1,9 @@
-uname=document.getElementById('usertext');
-pwd=document.getElementById('passtext');
-email=document.getElementById('emailtext');
-function reguser(){
-    console.log(name.value);
-    console.log(passtext.value);
-    console.log(emailtext.value);
+"use strict"
+function ref(){
+    var obj;
+    obj.uname=document.getElementById('usertext');
+    obj.pwd=document.getElementById('passtext');
+    obj.email=document.getElementById('emailtext');
+    return obj;
 }
+ref();

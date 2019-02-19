@@ -1,0 +1,3 @@
+
+it is always recommended to start the first line of the file with <use "strict">
+use "strict" is a keyword in javascript which tell the browser to check if the developer is writing the syntractically correct code.
