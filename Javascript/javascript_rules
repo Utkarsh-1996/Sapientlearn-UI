@@ -1,0 +1,40 @@
+
+> it is always recommended to start the first line of the file with <use "strict"
+
+> "use strict" is a keyword in javascript which tell the browser to check if the developer is writing the syntactically correct code.
+
+> hoisting is the process of separating variabe declaration and initialisation
+
+> js is object based not object oriented
+
+> accessing DOM:Document object model
+
+> browser converts html into js compatible object structure called DOM(HTML document is converted to HTML DOM)
+
+> Accessing DOM 
+    <div>
+        <div>
+            <div>
+            </div>
+        </div>
+    </div>
+
+>Types of selectors in js:
+    document.getElementById();
+    document.getElementsByClassName();
+    document.getElementsByTagName();
+    document.getElementByName();
+
+> In js double and single quotes are considered same 
+
+> Arrays are declared with square brackets []
+
+> Size of the array need to be pre-defined
+
+> Avoid race condition: to avid that adopt a proper naming condition
+*memory allcation in js
+
+> js is single threaded. But it wisely uses the time between the two processes.
+
+
+>> callback is a function. This function will be passed as a parameter to another function. Therefore the datatype will be function.
