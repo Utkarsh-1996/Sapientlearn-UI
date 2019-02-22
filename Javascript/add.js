@@ -11,8 +11,11 @@ var x=document.getElementById("a");
 // function createElement(type,id){
 
 // }
+// document.getElementById("clickbtn").addEventListener("click", createpost(){
+//     document.getElementById("demo").innerHTML = "Hello World";
+//   });
 var myPosts=[{text:"",time:""}]
-function createpost(){
+document.getElementById("clickbtn").addEventListener("dblclick", function createpost(){
     var postContent=document.getElementById("myPost");
     var postContainer=document.getElementById("postContainer");
     postContainer.innerHTML="";
@@ -29,5 +32,5 @@ function createpost(){
     postContainer.innerHTML+=myCard;
     }
     postContent.value="";
-}
+})
 
