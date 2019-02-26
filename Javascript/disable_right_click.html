@@ -1,0 +1,17 @@
+
+<html>
+        <head>
+    
+        </head>
+        <body>
+                <button id="child">Child</button>
+            <script>
+                var child=document.querySelector('#child')
+                child.addEventListener('contextmenu', function(e){
+                    window.alert("right click disabled")
+                    console.log('Child clicked')
+                    //e.stopPropagation()
+                },true)
+            </script>
+        </body>
+    </html>

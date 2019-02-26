@@ -27,4 +27,8 @@
             e.preventDefault();
         }
     }
+    var qs=document.querySelector("#btn")
+    var qsa=document.querySelectorAll("#btn")
+    console.log(qsa)
+    console.log(qs)
 })()

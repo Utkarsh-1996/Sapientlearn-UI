@@ -1,0 +1,12 @@
+first name
+last anme
+age 
+gender
+countries
+button called submit
+checkbox for agreeing to toc
+if chechbox is is checked button should be enabled else disabled
+for first name and last name: alphabets period space maxlength<=20
+if the user is trying to enter mmore than 20 characters a bootstrap notificaton saying max characters is 20 for only 5 seconds and then disappeared
+age <=99
+all the fields are required fields. red alert should be there

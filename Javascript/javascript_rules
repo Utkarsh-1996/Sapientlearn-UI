@@ -40,3 +40,8 @@
 >> callback is a function. This function will be passed as a parameter to another function. Therefore the datatype will be function.
 
 >>>>>callbacks(), promise(), async and await()
+
+
+
+>> document.querySelector()
+>> document.querySelectorAll()

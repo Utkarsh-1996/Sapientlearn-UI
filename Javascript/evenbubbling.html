@@ -1,0 +1,23 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <div id="parent1">
+            <button id="child">Child</button>
+        </div>
+        <script>
+            var parent=document.querySelector('#parent1');
+            parent.addEventListener('click', function(e){
+                console.log('Parent Clicked')
+                //e.stopPropagation();
+            })
+            var child=document.querySelector('#child')
+            child.addEventListener('contextMenu', function(e){
+                window.alert("right click disabled")
+                console.log('Child clicked')
+                //e.stopPropagation()
+            },true)
+        </script>
+    </body>
+</html>
