@@ -1,0 +1,8 @@
+>> To get the value or to set value we use "element.val()" method
+>>> var x = $("#id").val() -->reading data
+    $("id2").val("utkarsh")   --->writing data
+    <p>
+    <h1>xxxx</h1>
+    </p>
+    $("#p1").html() -->reading HTML element
+    $("#p1).html("<h1>xxxx<h1>")  --->writing into an HTML element
