@@ -1,0 +1,8 @@
+make sure your code is not dependent on user interface
+make sure code is following the single responsibilty principle(srp: one function, one functionality)
+ensure their are proper exception handling in your code
+ensure your function have return statements
+if you cant test anything that means your logic is bad
+integration and unit testing should be different
+mock environment
+tdd forces to develope a clean and crisp code
