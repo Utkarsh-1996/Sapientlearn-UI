@@ -6,3 +6,20 @@ if you cant test anything that means your logic is bad
 integration and unit testing should be different
 mock environment
 tdd forces to develope a clean and crisp code
+
+
+
+jasmine mocha jest are the unit testing libraries
+chai is an assertion library
+sinon is a mock creation library: use for mock frameworks
+with the help of sinon we will create fake function
+
+
+
+>> steps for creating unit testing in any of these libraries:
+    >all the 3 libraries are having the describe statements or describe functions
+    >purpose of describe-> create environment, group the unit tests
+    it function->the actual unit testing happens inside the it method 
+    before each method this method will allow you to set the data or mock data or mock functions
+    this mock data, function can be set before execution of every unit test
+    

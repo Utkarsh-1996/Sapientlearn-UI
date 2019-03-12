@@ -31,6 +31,21 @@
             });
             return change;
         }
+        var userList=null;
+        function isAuthorizedPromise(user){
+
+          return new Promise(function (resolve,reject){
+            try{
+            resolve(userList.indexOf(user)>=0)
+          }
+          catch(ex){
+            reject('userlist is empty')
+          }
+            setTimeout(function(){
+              resolve(userList.indexOf(user)>=0)
+            },10);
+          });
+        }
     </script>
     <script>
       // This is what a simple unit test looks like:
@@ -43,10 +58,10 @@
         var result = [1,2,3].indexOf(1);  // this should be 0
         assert.equal(result, -1); // we *expect* this to fail
       });
-      test('paid the exact amount',function(assert){
-          var result = getChange(10,10);
-          assert.equal(result,"take your item")
-      });
+      // test('paid the exact amount',function(assert){
+      //     var result = getChange(10,10);
+      //     assert.equal(result,"take your item")
+      // });
     //   test('paid more than the expected amount', function(assert){
     //       var result = getChange(10,15)
     //       assert.equal(result,"collect 5 from the change slot")
@@ -70,5 +85,6 @@
 
     //   });
     </script>
+    <script src="testPromise.js"></script>
   </body>
 </html>
